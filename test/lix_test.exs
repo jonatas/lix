@@ -21,8 +21,8 @@ defmodule LixTest do
 
   test "run cmd piped to any shell" do
     assert capture_io(fn -> 
-      Lix.run("ls -lah | wc -l")
-    end) =~ "10"
+      Lix.run("ls -lah config/ | wc -l")
+    end) =~ "4"
   end
 
   test "command line gets something and put it back to run" do
