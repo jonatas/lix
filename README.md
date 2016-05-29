@@ -1,6 +1,8 @@
 # Lix
 
-**TODO: Add description**
+Exploring command line with elixir.
+
+    mix run bin/term.ex
 
 ## Installation
 
