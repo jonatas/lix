@@ -1,0 +1,2 @@
+#! mix run
+Lix.interactive()
